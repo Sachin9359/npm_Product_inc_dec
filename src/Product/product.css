@@ -1,0 +1,30 @@
+.p-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.quantity{
+    border: 1px solid gray;
+    height: 1.5rem;
+    width: fit-content;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: row;
+    background-color: transpara;
+    overflow: hidden;
+}
+.btn{
+    width: 2rem;
+    border: none;
+    text-align: center;
+    height: 1.5rem;
+    background-color: transparent;
+    cursor: pointer;
+}
+.quantity>div{
+    width: 1.5rem;
+    text-align: center;
+    height: 1.5rem;
+    background-color: white;
+}
